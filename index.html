@@ -14,23 +14,42 @@
       
     <h2>Bài tập 1</h2>
     <div class="card">
-      <div class="card-body">
-        <div class="mb-3">
-          <label for="khuVuc" class="form-label">Khu vực</label>
-          <input type="text" id="khuVuc" class="form-control" placeholder="Nhập vào khu vực">
-        </div>
-        <div class="mb-3">
-          <label for="doiTuong" class="form-label">Đối tượng</label>
-          <input type="text" id="" class="form-control" placeholder="Nhập vào số KW">
-        </div>
+      <div class="mb-3">
+        <label for="khuVuc" class="form-label">Chọn khu vực</label>
+        <select class="form-control" id="khuVuc">
+          <option id="a">Khu vực A</option>
+          <option id="b">Khu vực B</option>
+          <option id="c">Khu vực C</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="doiTuong" class="form-label">Chọn đối tượng</label>
+        <select class="form-control" id="doiTuong">
+          <option id=""></option>
+          <option></option>
+          <option></option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="diem1" class="form-label">Điểm 1</label>
+        <input type="text" id="diem1" class="form-control" placeholder="Nhập vào điểm">
+      </div>
+      <div class="mb-3">
+        <label for="diem2" class="form-label">Điểm 2</label>
+        <input type="text" id="diem2" class="form-control" placeholder="Nhập vào điểm">
+      </div>
+      <div class="mb-3">
+        <label for="diem3" class="form-label">Điểm 3</label>
+        <input type="text" id="diem3" class="form-control" placeholder="Nhập vào điểm">
+      </div>
     </div>
-    <button onclick="tinhTien()">Số tiền cần phải trả</button>
-    <div id="getTotalPrice" style="display:'none'"></div>
-
+    <button onclick="inputObject()">Kết quả là</button>
+    <div id="hienThi" style="display:'none'"></div>
     
     <br />
-    
-    
+    <br />
+    <br />
+
     
     <h2>Bài tập 2</h2>
     <div class="card">

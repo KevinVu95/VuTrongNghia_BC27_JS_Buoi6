@@ -1,12 +1,12 @@
 function tinhDiemKhuVuc(khuVuc) {
     switch (khuVuc) {
-      case "A": // tương đương khuVuc === "A"
+      case "a": // tương đương khuVuc === "A"
         return 2;
         break;
-      case "B":
+      case "b":
         return 1;
         break;
-      case "C":
+      case "c":
         return 0.5;
         break;
       default:
@@ -15,7 +15,7 @@ function tinhDiemKhuVuc(khuVuc) {
   }
   
   // Function đc gọi khi click vào button tính điểm
-  function baitap1() {
+  function inputObject() {
     // B1: Xác định đầu vào: 3 môn thi + khu vực + đối tượng
     var diem1 = +document.getElementById("diem1").value;
     var diem2 = +document.getElementById("diem2").value;

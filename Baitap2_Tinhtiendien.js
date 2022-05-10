@@ -1,3 +1,7 @@
+
+
+
+
 function tinhTien() {
   var totalPrice;
   var fullName = document.getElementById('fullName').value;
