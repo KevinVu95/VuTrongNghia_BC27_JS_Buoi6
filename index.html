@@ -13,21 +13,21 @@
   <body>
       
     <h2>Bài tập 1</h2>
-    <div class="card">
+    <div class="access">
       <div class="mb-3">
         <label for="khuVuc" class="form-label">Chọn khu vực</label>
         <select class="form-control" id="khuVuc">
-          <option id="a">Khu vực A</option>
-          <option id="b">Khu vực B</option>
-          <option id="c">Khu vực C</option>
+          <option value="a">Khu vực A</option>
+          <option value="b">Khu vực B</option>
+          <option value="c">Khu vực C</option>
         </select>
       </div>
       <div class="mb-3">
         <label for="doiTuong" class="form-label">Chọn đối tượng</label>
         <select class="form-control" id="doiTuong">
-          <option id=""></option>
-          <option></option>
-          <option></option>
+          <option value="doiTuong1">Đối tượng 1</option>
+          <option value="doiTuong2">Đối tượng 2</option>
+          <option value="doiTuong3">Đối tượng 3</option>
         </select>
       </div>
       <div class="mb-3">
@@ -43,9 +43,11 @@
         <input type="text" id="diem3" class="form-control" placeholder="Nhập vào điểm">
       </div>
     </div>
-    <button onclick="inputObject()">Kết quả là</button>
-    <div id="hienThi" style="display:'none'"></div>
-    
+    <button onclick="inputOption()">Kết quả là</button>
+    <div id="result" style="display:'none'"></div>
+  </div>
+
+
     <br />
     <br />
     <br />
@@ -63,7 +65,7 @@
             <input type="text" id="inputKW" class="form-control" placeholder="Nhập vào số KW">
           </div>
       </div>
-      <button onclick="tinhTien()">Số tiền cần phải trả</button>
+      <button onclick="tinhTien()">Nhấn để trả</button>
       <div id="getTotalPrice" style="display:'none'"></div>
 
 
